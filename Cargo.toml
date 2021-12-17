@@ -7,6 +7,9 @@ edition = "2021"
 
 [dependencies]
 polars = "0.18.0"
-serde = "1.0.130"
-hyper = "0.14"
 csv = "1.1"
+diesel = { version = "1.4.4", features = ["sqlite"] }
+dotenv = "0.15.0"
+log = "0.4"
+async-trait = "0.1.52"
+serde_json = "1.0"
